@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB217B4C199E07250083C742 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB217B4B199E07250083C742 /* Foundation.framework */; };
+		CB217B4E199E07250083C742 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB217B4D199E07250083C742 /* CoreGraphics.framework */; };
+		CB217B50199E07250083C742 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB217B4F199E07250083C742 /* UIKit.framework */; };
+		CB217B56199E07250083C742 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB217B54199E07250083C742 /* InfoPlist.strings */; };
+		CB217B58199E07250083C742 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB217B57199E07250083C742 /* main.m */; };
+		CB217B5C199E07250083C742 /* WiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB217B5B199E07250083C742 /* WiAppDelegate.m */; };
+		CB217B5F199E07250083C742 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB217B5D199E07250083C742 /* Main_iPhone.storyboard */; };
+		CB217B62199E07250083C742 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB217B60199E07250083C742 /* Main_iPad.storyboard */; };
+		CB217B65199E07250083C742 /* WiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB217B64199E07250083C742 /* WiViewController.m */; };
+		CB217B67199E07250083C742 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB217B66199E07250083C742 /* Images.xcassets */; };
+		CB217B6E199E07250083C742 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB217B6D199E07250083C742 /* XCTest.framework */; };
+		CB217B6F199E07250083C742 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB217B4B199E07250083C742 /* Foundation.framework */; };
+		CB217B70199E07250083C742 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB217B4F199E07250083C742 /* UIKit.framework */; };
+		CB217B78199E07250083C742 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB217B76199E07250083C742 /* InfoPlist.strings */; };
+		CB217B7A199E07250083C742 /* WiMeetingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB217B79199E07250083C742 /* WiMeetingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB217B71199E07250083C742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB217B40199E07250083C742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB217B47199E07250083C742;
+			remoteInfo = WiMeeting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB217B48199E07250083C742 /* WiMeeting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiMeeting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB217B4B199E07250083C742 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB217B4D199E07250083C742 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB217B4F199E07250083C742 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB217B53199E07250083C742 /* WiMeeting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WiMeeting-Info.plist"; sourceTree = "<group>"; };
+		CB217B55199E07250083C742 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB217B57199E07250083C742 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB217B59199E07250083C742 /* WiMeeting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WiMeeting-Prefix.pch"; sourceTree = "<group>"; };
+		CB217B5A199E07250083C742 /* WiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiAppDelegate.h; sourceTree = "<group>"; };
+		CB217B5B199E07250083C742 /* WiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiAppDelegate.m; sourceTree = "<group>"; };
+		CB217B5E199E07250083C742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CB217B61199E07250083C742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CB217B63199E07250083C742 /* WiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiViewController.h; sourceTree = "<group>"; };
+		CB217B64199E07250083C742 /* WiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiViewController.m; sourceTree = "<group>"; };
+		CB217B66199E07250083C742 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB217B6C199E07250083C742 /* WiMeetingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiMeetingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB217B6D199E07250083C742 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CB217B75199E07250083C742 /* WiMeetingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WiMeetingTests-Info.plist"; sourceTree = "<group>"; };
+		CB217B77199E07250083C742 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB217B79199E07250083C742 /* WiMeetingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiMeetingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB217B45199E07250083C742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB217B4E199E07250083C742 /* CoreGraphics.framework in Frameworks */,
+				CB217B50199E07250083C742 /* UIKit.framework in Frameworks */,
+				CB217B4C199E07250083C742 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB217B69199E07250083C742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB217B6E199E07250083C742 /* XCTest.framework in Frameworks */,
+				CB217B70199E07250083C742 /* UIKit.framework in Frameworks */,
+				CB217B6F199E07250083C742 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB217B3F199E07250083C742 = {
+			isa = PBXGroup;
+			children = (
+				CB217B51199E07250083C742 /* WiMeeting */,
+				CB217B73199E07250083C742 /* WiMeetingTests */,
+				CB217B4A199E07250083C742 /* Frameworks */,
+				CB217B49199E07250083C742 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB217B49199E07250083C742 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB217B48199E07250083C742 /* WiMeeting.app */,
+				CB217B6C199E07250083C742 /* WiMeetingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB217B4A199E07250083C742 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB217B4B199E07250083C742 /* Foundation.framework */,
+				CB217B4D199E07250083C742 /* CoreGraphics.framework */,
+				CB217B4F199E07250083C742 /* UIKit.framework */,
+				CB217B6D199E07250083C742 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB217B51199E07250083C742 /* WiMeeting */ = {
+			isa = PBXGroup;
+			children = (
+				CB217B5A199E07250083C742 /* WiAppDelegate.h */,
+				CB217B5B199E07250083C742 /* WiAppDelegate.m */,
+				CB217B5D199E07250083C742 /* Main_iPhone.storyboard */,
+				CB217B60199E07250083C742 /* Main_iPad.storyboard */,
+				CB217B63199E07250083C742 /* WiViewController.h */,
+				CB217B64199E07250083C742 /* WiViewController.m */,
+				CB217B66199E07250083C742 /* Images.xcassets */,
+				CB217B52199E07250083C742 /* Supporting Files */,
+			);
+			path = WiMeeting;
+			sourceTree = "<group>";
+		};
+		CB217B52199E07250083C742 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB217B53199E07250083C742 /* WiMeeting-Info.plist */,
+				CB217B54199E07250083C742 /* InfoPlist.strings */,
+				CB217B57199E07250083C742 /* main.m */,
+				CB217B59199E07250083C742 /* WiMeeting-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB217B73199E07250083C742 /* WiMeetingTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB217B79199E07250083C742 /* WiMeetingTests.m */,
+				CB217B74199E07250083C742 /* Supporting Files */,
+			);
+			path = WiMeetingTests;
+			sourceTree = "<group>";
+		};
+		CB217B74199E07250083C742 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB217B75199E07250083C742 /* WiMeetingTests-Info.plist */,
+				CB217B76199E07250083C742 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB217B47199E07250083C742 /* WiMeeting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB217B7D199E07250083C742 /* Build configuration list for PBXNativeTarget "WiMeeting" */;
+			buildPhases = (
+				CB217B44199E07250083C742 /* Sources */,
+				CB217B45199E07250083C742 /* Frameworks */,
+				CB217B46199E07250083C742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiMeeting;
+			productName = WiMeeting;
+			productReference = CB217B48199E07250083C742 /* WiMeeting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB217B6B199E07250083C742 /* WiMeetingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB217B80199E07250083C742 /* Build configuration list for PBXNativeTarget "WiMeetingTests" */;
+			buildPhases = (
+				CB217B68199E07250083C742 /* Sources */,
+				CB217B69199E07250083C742 /* Frameworks */,
+				CB217B6A199E07250083C742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB217B72199E07250083C742 /* PBXTargetDependency */,
+			);
+			name = WiMeetingTests;
+			productName = WiMeetingTests;
+			productReference = CB217B6C199E07250083C742 /* WiMeetingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB217B40199E07250083C742 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Wi;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Wistron;
+				TargetAttributes = {
+					CB217B6B199E07250083C742 = {
+						TestTargetID = CB217B47199E07250083C742;
+					};
+				};
+			};
+			buildConfigurationList = CB217B43199E07250083C742 /* Build configuration list for PBXProject "WiMeeting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB217B3F199E07250083C742;
+			productRefGroup = CB217B49199E07250083C742 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB217B47199E07250083C742 /* WiMeeting */,
+				CB217B6B199E07250083C742 /* WiMeetingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB217B46199E07250083C742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB217B62199E07250083C742 /* Main_iPad.storyboard in Resources */,
+				CB217B67199E07250083C742 /* Images.xcassets in Resources */,
+				CB217B5F199E07250083C742 /* Main_iPhone.storyboard in Resources */,
+				CB217B56199E07250083C742 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB217B6A199E07250083C742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB217B78199E07250083C742 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB217B44199E07250083C742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB217B5C199E07250083C742 /* WiAppDelegate.m in Sources */,
+				CB217B58199E07250083C742 /* main.m in Sources */,
+				CB217B65199E07250083C742 /* WiViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB217B68199E07250083C742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB217B7A199E07250083C742 /* WiMeetingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB217B72199E07250083C742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB217B47199E07250083C742 /* WiMeeting */;
+			targetProxy = CB217B71199E07250083C742 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB217B54199E07250083C742 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB217B55199E07250083C742 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB217B5D199E07250083C742 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB217B5E199E07250083C742 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CB217B60199E07250083C742 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB217B61199E07250083C742 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CB217B76199E07250083C742 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB217B77199E07250083C742 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB217B7B199E07250083C742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB217B7C199E07250083C742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB217B7E199E07250083C742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WiMeeting/WiMeeting-Prefix.pch";
+				INFOPLIST_FILE = "WiMeeting/WiMeeting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB217B7F199E07250083C742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WiMeeting/WiMeeting-Prefix.pch";
+				INFOPLIST_FILE = "WiMeeting/WiMeeting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CB217B81199E07250083C742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WiMeeting.app/WiMeeting";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WiMeeting/WiMeeting-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WiMeetingTests/WiMeetingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CB217B82199E07250083C742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WiMeeting.app/WiMeeting";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WiMeeting/WiMeeting-Prefix.pch";
+				INFOPLIST_FILE = "WiMeetingTests/WiMeetingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB217B43199E07250083C742 /* Build configuration list for PBXProject "WiMeeting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB217B7B199E07250083C742 /* Debug */,
+				CB217B7C199E07250083C742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB217B7D199E07250083C742 /* Build configuration list for PBXNativeTarget "WiMeeting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB217B7E199E07250083C742 /* Debug */,
+				CB217B7F199E07250083C742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB217B80199E07250083C742 /* Build configuration list for PBXNativeTarget "WiMeetingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB217B81199E07250083C742 /* Debug */,
+				CB217B82199E07250083C742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB217B40199E07250083C742 /* Project object */;
+}

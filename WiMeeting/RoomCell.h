@@ -11,8 +11,7 @@
 @interface RoomCell : UITableViewCell
 
 @property (nonatomic, weak) IBOutlet UILabel *topicLabel;
-@property (nonatomic, weak) IBOutlet UILabel *roomLabel;
-@property (nonatomic, weak) IBOutlet UILabel *speakerLabel;
+@property (nonatomic, weak) IBOutlet UILabel *descLabel;
 @property (nonatomic, weak) IBOutlet UIButton *joinButton;
 
 @end

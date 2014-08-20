@@ -23,6 +23,7 @@
 		CB217B8B19A1FBC20083C742 /* RoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB217B8A19A1FBC20083C742 /* RoomViewController.m */; };
 		CB217B8E19A1FBE20083C742 /* RoomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB217B8D19A1FBE20083C742 /* RoomCell.m */; };
 		CB217B9119A1FC780083C742 /* WiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB217B9019A1FC780083C742 /* WiAppDelegate.m */; };
+		CBB5A1B219A450C900006140 /* QuickEnter.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB5A1B119A450C900006140 /* QuickEnter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		CB217B8D19A1FBE20083C742 /* RoomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomCell.m; sourceTree = "<group>"; };
 		CB217B8F19A1FC780083C742 /* WiAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiAppDelegate.h; sourceTree = "<group>"; };
 		CB217B9019A1FC780083C742 /* WiAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiAppDelegate.m; sourceTree = "<group>"; };
+		CBB5A1B019A450C900006140 /* QuickEnter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickEnter.h; sourceTree = "<group>"; };
+		CBB5A1B119A450C900006140 /* QuickEnter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickEnter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				CB217B5D199E07250083C742 /* Main_iPhone.storyboard */,
+				CBB5A1B019A450C900006140 /* QuickEnter.h */,
+				CBB5A1B119A450C900006140 /* QuickEnter.m */,
 				CB217B60199E07250083C742 /* Main_iPad.storyboard */,
 				CB217B66199E07250083C742 /* Images.xcassets */,
 				CB217B52199E07250083C742 /* Supporting Files */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB5A1B219A450C900006140 /* QuickEnter.m in Sources */,
 				CB217B58199E07250083C742 /* main.m in Sources */,
 				CB217B8E19A1FBE20083C742 /* RoomCell.m in Sources */,
 				CB217B9119A1FC780083C742 /* WiAppDelegate.m in Sources */,
@@ -486,6 +492,7 @@
 				CB217B7F199E07250083C742 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB217B80199E07250083C742 /* Build configuration list for PBXNativeTarget "WiMeetingTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +501,7 @@
 				CB217B82199E07250083C742 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

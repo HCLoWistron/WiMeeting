@@ -125,8 +125,9 @@
     cell.topicLabel.text = roomInfo[@"topic"];
     //cell.descLabel.text = roomInfo[@"desc"];
     //cell.roomLabel.text = [NSString stringWithFormat:@"Room: %@, Speaker: %@",roomInfo[@"room"],roomInfo[@"speaker"]];
-    cell.roomLabel.text = [NSString stringWithFormat:@"Room: %@",roomInfo[@"room"]];
-    cell.speakerLabel.text = [NSString stringWithFormat:@"Speaker: %@",roomInfo[@"speaker"]];
+    //cell.roomLabel.text = [NSString stringWithFormat:@"Room: %@",roomInfo[@"room"]];
+    //cell.speakerLabel.text = [NSString stringWithFormat:@"Speaker: %@",roomInfo[@"speaker"]];
+    cell.descLabel.text = [NSString stringWithFormat:@"Room: %@    Speaker: %@",roomInfo[@"room"],roomInfo[@"speaker"]];
     
     return cell;
 }

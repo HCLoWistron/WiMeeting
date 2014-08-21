@@ -22,8 +22,9 @@
 		CB217B7A199E07250083C742 /* WiMeetingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB217B79199E07250083C742 /* WiMeetingTests.m */; };
 		CB217B8B19A1FBC20083C742 /* RoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB217B8A19A1FBC20083C742 /* RoomViewController.m */; };
 		CB217B8E19A1FBE20083C742 /* RoomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB217B8D19A1FBE20083C742 /* RoomCell.m */; };
-		CB217B9119A1FC780083C742 /* WiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB217B9019A1FC780083C742 /* WiAppDelegate.m */; };
-		CBB5A1B219A450C900006140 /* QuickEnter.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB5A1B119A450C900006140 /* QuickEnter.m */; };
+		CB217B9119A1FC780083C742 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB217B9019A1FC780083C742 /* AppDelegate.m */; };
+		CBB5A1BC19A4A44700006140 /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB5A1BB19A4A44700006140 /* EventDetailViewController.m */; };
+		CBB5A1BF19A4AB5400006140 /* QuickEnterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB5A1BE19A4AB5400006140 /* QuickEnterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +58,12 @@
 		CB217B8A19A1FBC20083C742 /* RoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomViewController.m; sourceTree = "<group>"; };
 		CB217B8C19A1FBE20083C742 /* RoomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomCell.h; sourceTree = "<group>"; };
 		CB217B8D19A1FBE20083C742 /* RoomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomCell.m; sourceTree = "<group>"; };
-		CB217B8F19A1FC780083C742 /* WiAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiAppDelegate.h; sourceTree = "<group>"; };
-		CB217B9019A1FC780083C742 /* WiAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiAppDelegate.m; sourceTree = "<group>"; };
-		CBB5A1B019A450C900006140 /* QuickEnter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickEnter.h; sourceTree = "<group>"; };
-		CBB5A1B119A450C900006140 /* QuickEnter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickEnter.m; sourceTree = "<group>"; };
+		CB217B8F19A1FC780083C742 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB217B9019A1FC780083C742 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBB5A1BA19A4A44700006140 /* EventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailViewController.h; sourceTree = "<group>"; };
+		CBB5A1BB19A4A44700006140 /* EventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailViewController.m; sourceTree = "<group>"; };
+		CBB5A1BD19A4AB5400006140 /* QuickEnterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuickEnterViewController.h; path = ../QuickEnterViewController.h; sourceTree = "<group>"; };
+		CBB5A1BE19A4AB5400006140 /* QuickEnterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuickEnterViewController.m; path = ../QuickEnterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,17 +124,20 @@
 			isa = PBXGroup;
 			children = (
 				CB217B5D199E07250083C742 /* Main_iPhone.storyboard */,
-				CBB5A1B019A450C900006140 /* QuickEnter.h */,
-				CBB5A1B119A450C900006140 /* QuickEnter.m */,
 				CB217B60199E07250083C742 /* Main_iPad.storyboard */,
-				CB217B66199E07250083C742 /* Images.xcassets */,
-				CB217B52199E07250083C742 /* Supporting Files */,
 				CB217B8919A1FBC20083C742 /* RoomViewController.h */,
 				CB217B8A19A1FBC20083C742 /* RoomViewController.m */,
+				CBB5A1BA19A4A44700006140 /* EventDetailViewController.h */,
+				CBB5A1BB19A4A44700006140 /* EventDetailViewController.m */,
+				CBB5A1BD19A4AB5400006140 /* QuickEnterViewController.h */,
+				CBB5A1BE19A4AB5400006140 /* QuickEnterViewController.m */,
+				CB217B8F19A1FC780083C742 /* AppDelegate.h */,
+				CB217B9019A1FC780083C742 /* AppDelegate.m */,
 				CB217B8C19A1FBE20083C742 /* RoomCell.h */,
-				CB217B8F19A1FC780083C742 /* WiAppDelegate.h */,
-				CB217B9019A1FC780083C742 /* WiAppDelegate.m */,
 				CB217B8D19A1FBE20083C742 /* RoomCell.m */,
+				CB217B66199E07250083C742 /* Images.xcassets */,
+				CBB5A1B319A4775800006140 /* Model */,
+				CB217B52199E07250083C742 /* Supporting Files */,
 			);
 			path = WiMeeting;
 			sourceTree = "<group>";
@@ -163,6 +169,14 @@
 				CB217B76199E07250083C742 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBB5A1B319A4775800006140 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,10 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBB5A1B219A450C900006140 /* QuickEnter.m in Sources */,
+				CBB5A1BC19A4A44700006140 /* EventDetailViewController.m in Sources */,
 				CB217B58199E07250083C742 /* main.m in Sources */,
 				CB217B8E19A1FBE20083C742 /* RoomCell.m in Sources */,
-				CB217B9119A1FC780083C742 /* WiAppDelegate.m in Sources */,
+				CBB5A1BF19A4AB5400006140 /* QuickEnterViewController.m in Sources */,
+				CB217B9119A1FC780083C742 /* AppDelegate.m in Sources */,
 				CB217B8B19A1FBC20083C742 /* RoomViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

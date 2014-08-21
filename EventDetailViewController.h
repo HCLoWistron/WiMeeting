@@ -1,5 +1,5 @@
 //
-//  QuickEnter.h
+//  EventDetailViewController.h
 //  WiMeeting
 //
 //  Created by HungChe Lo on 8/20/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface QuickEnter : UIView
+@interface EventDetailViewController : UIViewController
 
 @end

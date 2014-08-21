@@ -1,5 +1,5 @@
 //
-//  WiAppDelegate.h
+//  AppDelegate.h
 //  WiMeeting
 //
 //  Created by HungChe Lo on 8/15/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WiAppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

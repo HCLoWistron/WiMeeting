@@ -1,14 +1,14 @@
 //
-//  WiAppDelegate.m
+//  AppDelegate.m
 //  WiMeeting
 //
 //  Created by HungChe Lo on 8/15/14.
 //  Copyright (c) 2014 Wistron. All rights reserved.
 //
 
-#import "WiAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation WiAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

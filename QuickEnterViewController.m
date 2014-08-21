@@ -32,13 +32,12 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    //@HC, init room text field delegate
-    //self.roomTextField.delegate = self;
     
     self.titleLabel.text = [NSString stringWithFormat:@"Instant Meeting"];
     self.descLabel.text = [NSString stringWithFormat:@"Please input the meeting room number."];
     self.promptLabel.text = [NSString stringWithFormat:@"Room: "];
 
+    // Ref Url:http://code-and-coffee.blogspot.tw/2013/01/how-to-dissmis-decimal-pad-keyboard.html
     UITapGestureRecognizer* tapGesture = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(dismissKeyboard)];
     tapGesture.cancelsTouchesInView = NO;
     [self.view addGestureRecognizer:tapGesture];

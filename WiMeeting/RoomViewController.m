@@ -15,21 +15,27 @@
 
 @implementation RoomViewController
 
+//@synthesize tableView;
+
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if([segue.identifier isEqual:@"Event Details"])
+    if([segue.identifier isEqual:@"EventDetials"])
     {
-        if([segue.destinationViewController isKindOfClass:[EventDetailViewController class]])
-        {
-            EventDetailViewController *edvc = (EventDetailViewController *)segue.destinationViewController;
-
-            //NSLog(@"Enter into segue");
-            edvc.topicLabel.text = [NSString stringWithFormat:@"topic test"];
-            //edvc.speakerLabel.text = [NSString stringWithFormat:@"speaker test"];
-            //edvc.roomLabel.text = [NSString stringWithFormat:@"room test"];
-            //edvc.timeLabel.text = [NSString stringWithFormat:@"time test"];
-            //edvc.durationLabel.text = [NSString stringWithFormat:@"duration test"];
-        }
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        NSDictionary *roomInfo = self.roomInfos[indexPath.row];
+        EventDetailViewController *eventdetailViewController = (EventDetailViewController *)segue.destinationViewController;
+        
+        [eventdetailViewController setTopicName:roomInfo[@"topic"]];
+        [eventdetailViewController setSpeakerName:roomInfo[@"speaker"]];
+        [eventdetailViewController setRoomName:roomInfo[@"room"]];
+        [eventdetailViewController setTimeName:roomInfo[@"time"]];
+        [eventdetailViewController setDurationName:roomInfo[@"duration"]];
+        //eventdetailViewController.topicLabel.text = roomInfo[@"topic"];
+        
+        //NSLog(@"indexPath.row: %ld", (long)indexPath.row);
+        NSLog(@"topic: %@", roomInfo[@"topic"]);
+        
     }
 }
 
@@ -146,19 +152,10 @@
     //cell.speakerLabel.text = [NSString stringWithFormat:@"Speaker: %@",roomInfo[@"speaker"]];
     cell.descLabel.text = [NSString stringWithFormat:@"Room: %@    Speaker: %@",roomInfo[@"room"],roomInfo[@"speaker"]];
     
-    return cell;
-}
-
-/*
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
+    //NSLog(@"topic: %@", roomInfo[@"topic"]);
     
     return cell;
 }
-*/
 
 /*
 // Override to support conditional editing of the table view.

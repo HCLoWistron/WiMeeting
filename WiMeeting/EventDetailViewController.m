@@ -14,6 +14,17 @@
 
 @implementation EventDetailViewController
 
+@synthesize topicLabel;
+@synthesize speakerLabel;
+@synthesize roomLabel;
+@synthesize timeLabel;
+@synthesize durationLabel;
+@synthesize topicName;
+@synthesize speakerName;
+@synthesize roomName;
+@synthesize timeName;
+@synthesize durationName;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -23,25 +34,22 @@
     return self;
 }
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    topicLabel.text = topicName;
+    speakerLabel.text = speakerName;
+    roomLabel.text = [NSString stringWithFormat:@"Room: %@",roomName];
+    timeLabel.text = timeName;
+    durationLabel.text = [NSString stringWithFormat:@"Duration: %@ Hours",durationName];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
--(void)updateUI
-{
-    self.timeLabel.text = [NSString stringWithFormat:@"test title"];
-    self.speakerLabel.text = [NSString stringWithFormat:@"test speaker"];
-    self.roomLabel.text = [NSString stringWithFormat:@"test room"];
-    self.timeLabel.text = [NSString stringWithFormat:@"test time"];
-    self.durationLabel.text = [NSString stringWithFormat:@"test duration"];
 }
 
 /*

@@ -26,6 +26,7 @@
 		CB634E4A19A71F130085CDD0 /* SettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB634E4919A71F130085CDD0 /* SettingTableViewController.m */; };
 		CBB5A1BC19A4A44700006140 /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB5A1BB19A4A44700006140 /* EventDetailViewController.m */; };
 		CBB5A1BF19A4AB5400006140 /* QuickEnterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB5A1BE19A4AB5400006140 /* QuickEnterViewController.m */; };
+		CBFA89DF19A744A6007FBFB7 /* RoomInfos.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBFA89DE19A744A6007FBFB7 /* RoomInfos.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		CBB5A1BB19A4A44700006140 /* EventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailViewController.m; sourceTree = "<group>"; };
 		CBB5A1BD19A4AB5400006140 /* QuickEnterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuickEnterViewController.h; path = ../QuickEnterViewController.h; sourceTree = "<group>"; };
 		CBB5A1BE19A4AB5400006140 /* QuickEnterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuickEnterViewController.m; path = ../QuickEnterViewController.m; sourceTree = "<group>"; };
+		CBFA89DE19A744A6007FBFB7 /* RoomInfos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RoomInfos.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				CB217B66199E07250083C742 /* Images.xcassets */,
 				CBB5A1B319A4775800006140 /* Model */,
 				CB217B52199E07250083C742 /* Supporting Files */,
+				CBFA89DE19A744A6007FBFB7 /* RoomInfos.plist */,
 			);
 			path = WiMeeting;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				CB217B62199E07250083C742 /* Main_iPad.storyboard in Resources */,
 				CB217B67199E07250083C742 /* Images.xcassets in Resources */,
 				CB217B5F199E07250083C742 /* Main_iPhone.storyboard in Resources */,
+				CBFA89DF19A744A6007FBFB7 /* RoomInfos.plist in Resources */,
 				CB217B56199E07250083C742 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

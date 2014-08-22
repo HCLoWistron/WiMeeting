@@ -23,6 +23,8 @@
 		CB217B8B19A1FBC20083C742 /* RoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB217B8A19A1FBC20083C742 /* RoomViewController.m */; };
 		CB217B8E19A1FBE20083C742 /* RoomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB217B8D19A1FBE20083C742 /* RoomCell.m */; };
 		CB217B9119A1FC780083C742 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB217B9019A1FC780083C742 /* AppDelegate.m */; };
+		CB634E4719A6EE850085CDD0 /* RoomsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB634E4619A6EE850085CDD0 /* RoomsViewController.m */; };
+		CB634E4A19A71F130085CDD0 /* SettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB634E4919A71F130085CDD0 /* SettingTableViewController.m */; };
 		CBB5A1BC19A4A44700006140 /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB5A1BB19A4A44700006140 /* EventDetailViewController.m */; };
 		CBB5A1BF19A4AB5400006140 /* QuickEnterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB5A1BE19A4AB5400006140 /* QuickEnterViewController.m */; };
 /* End PBXBuildFile section */
@@ -60,6 +62,10 @@
 		CB217B8D19A1FBE20083C742 /* RoomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomCell.m; sourceTree = "<group>"; };
 		CB217B8F19A1FC780083C742 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB217B9019A1FC780083C742 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB634E4519A6EE850085CDD0 /* RoomsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomsViewController.h; sourceTree = "<group>"; };
+		CB634E4619A6EE850085CDD0 /* RoomsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomsViewController.m; sourceTree = "<group>"; };
+		CB634E4819A71F130085CDD0 /* SettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTableViewController.h; sourceTree = "<group>"; };
+		CB634E4919A71F130085CDD0 /* SettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewController.m; sourceTree = "<group>"; };
 		CBB5A1BA19A4A44700006140 /* EventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailViewController.h; sourceTree = "<group>"; };
 		CBB5A1BB19A4A44700006140 /* EventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailViewController.m; sourceTree = "<group>"; };
 		CBB5A1BD19A4AB5400006140 /* QuickEnterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuickEnterViewController.h; path = ../QuickEnterViewController.h; sourceTree = "<group>"; };
@@ -124,17 +130,21 @@
 			isa = PBXGroup;
 			children = (
 				CB217B5D199E07250083C742 /* Main_iPhone.storyboard */,
+				CB634E4819A71F130085CDD0 /* SettingTableViewController.h */,
+				CB634E4919A71F130085CDD0 /* SettingTableViewController.m */,
 				CB217B60199E07250083C742 /* Main_iPad.storyboard */,
+				CB634E4519A6EE850085CDD0 /* RoomsViewController.h */,
+				CB634E4619A6EE850085CDD0 /* RoomsViewController.m */,
 				CB217B8919A1FBC20083C742 /* RoomViewController.h */,
 				CB217B8A19A1FBC20083C742 /* RoomViewController.m */,
+				CB217B8C19A1FBE20083C742 /* RoomCell.h */,
+				CB217B8D19A1FBE20083C742 /* RoomCell.m */,
 				CBB5A1BA19A4A44700006140 /* EventDetailViewController.h */,
 				CBB5A1BB19A4A44700006140 /* EventDetailViewController.m */,
 				CBB5A1BD19A4AB5400006140 /* QuickEnterViewController.h */,
 				CBB5A1BE19A4AB5400006140 /* QuickEnterViewController.m */,
 				CB217B8F19A1FC780083C742 /* AppDelegate.h */,
 				CB217B9019A1FC780083C742 /* AppDelegate.m */,
-				CB217B8C19A1FBE20083C742 /* RoomCell.h */,
-				CB217B8D19A1FBE20083C742 /* RoomCell.m */,
 				CB217B66199E07250083C742 /* Images.xcassets */,
 				CBB5A1B319A4775800006140 /* Model */,
 				CB217B52199E07250083C742 /* Supporting Files */,
@@ -285,6 +295,8 @@
 				CB217B58199E07250083C742 /* main.m in Sources */,
 				CB217B8E19A1FBE20083C742 /* RoomCell.m in Sources */,
 				CBB5A1BF19A4AB5400006140 /* QuickEnterViewController.m in Sources */,
+				CB634E4A19A71F130085CDD0 /* SettingTableViewController.m in Sources */,
+				CB634E4719A6EE850085CDD0 /* RoomsViewController.m in Sources */,
 				CB217B9119A1FC780083C742 /* AppDelegate.m in Sources */,
 				CB217B8B19A1FBC20083C742 /* RoomViewController.m in Sources */,
 			);

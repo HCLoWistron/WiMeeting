@@ -1,37 +1,18 @@
 //
-//  RoomViewController.m
+//  RoomsViewController.m
 //  WiMeeting
 //
-//  Created by HungChe Lo on 8/18/14.
+//  Created by HungChe Lo on 8/22/14.
 //  Copyright (c) 2014 Wistron. All rights reserved.
 //
 
-#import "RoomViewController.h"
-#import "EventDetailViewController.h"
+#import "RoomsViewController.h"
 
-@interface RoomViewController ()
+@interface RoomsViewController ()
 
 @end
 
-@implementation RoomViewController
-
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    if([segue.identifier isEqual:@"Event Details"])
-    {
-        if([segue.destinationViewController isKindOfClass:[EventDetailViewController class]])
-        {
-            EventDetailViewController *edvc = (EventDetailViewController *)segue.destinationViewController;
-
-            //NSLog(@"Enter into segue");
-            edvc.topicLabel.text = [NSString stringWithFormat:@"topic test"];
-            //edvc.speakerLabel.text = [NSString stringWithFormat:@"speaker test"];
-            //edvc.roomLabel.text = [NSString stringWithFormat:@"room test"];
-            //edvc.timeLabel.text = [NSString stringWithFormat:@"time test"];
-            //edvc.durationLabel.text = [NSString stringWithFormat:@"duration test"];
-        }
-    }
-}
+@implementation RoomsViewController
 
 - (void)loadRoomInfo
 {
@@ -80,38 +61,9 @@
     //[self.tableView reloadData];
 }
 
-- (id)initWithStyle:(UITableViewStyle)style
-{
-    self = [super initWithStyle:style];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    [self loadRoomInfo];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-#pragma mark - Table view data source
-
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-//#warning Potentially incomplete method implementation.
+    //#warning Potentially incomplete method implementation.
     // Return the number of sections.
     //return 0;
     
@@ -121,7 +73,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-//#warning Incomplete method implementation.
+    //#warning Incomplete method implementation.
     // Return the number of rows in the section.
     //return 0;
     
@@ -149,54 +101,27 @@
     return cell;
 }
 
-/*
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
-    return cell;
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
 }
-*/
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+- (void)viewDidLoad
 {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    [self loadRoomInfo];
 }
-*/
 
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+- (void)didReceiveMemoryWarning
 {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
 
 /*
 #pragma mark - Navigation

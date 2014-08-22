@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface EventDetailViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UILabel *topicLabel;
+@property (strong, nonatomic) IBOutlet UILabel *topicLabel;
 @property (weak, nonatomic) IBOutlet UILabel *speakerLabel;
 @property (weak, nonatomic) IBOutlet UILabel *roomLabel;
 @property (weak, nonatomic) IBOutlet UILabel *timeLabel;

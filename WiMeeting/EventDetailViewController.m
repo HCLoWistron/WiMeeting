@@ -35,6 +35,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)updateUI
+{
+    self.timeLabel.text = [NSString stringWithFormat:@"test title"];
+    self.speakerLabel.text = [NSString stringWithFormat:@"test speaker"];
+    self.roomLabel.text = [NSString stringWithFormat:@"test room"];
+    self.timeLabel.text = [NSString stringWithFormat:@"test time"];
+    self.durationLabel.text = [NSString stringWithFormat:@"test duration"];
+}
+
 /*
 #pragma mark - Navigation
 

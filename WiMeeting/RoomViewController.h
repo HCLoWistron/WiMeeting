@@ -14,6 +14,4 @@
 // Adding roomInfo for inout room info
 @property (nonatomic, strong) NSMutableArray *roomInfos;
 
-//@property (nonatomic, strong) IBOutlet UITableView *tableView;
-
 @end

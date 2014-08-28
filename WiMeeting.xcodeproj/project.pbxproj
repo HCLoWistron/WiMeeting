@@ -12,7 +12,6 @@
 		CB217B50199E07250083C742 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB217B4F199E07250083C742 /* UIKit.framework */; };
 		CB217B56199E07250083C742 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB217B54199E07250083C742 /* InfoPlist.strings */; };
 		CB217B58199E07250083C742 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB217B57199E07250083C742 /* main.m */; };
-		CB217B5F199E07250083C742 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB217B5D199E07250083C742 /* Main_iPhone.storyboard */; };
 		CB217B62199E07250083C742 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB217B60199E07250083C742 /* Main_iPad.storyboard */; };
 		CB217B67199E07250083C742 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB217B66199E07250083C742 /* Images.xcassets */; };
 		CB217B6E199E07250083C742 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB217B6D199E07250083C742 /* XCTest.framework */; };
@@ -23,9 +22,11 @@
 		CB217B8B19A1FBC20083C742 /* RoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB217B8A19A1FBC20083C742 /* RoomViewController.m */; };
 		CB217B8E19A1FBE20083C742 /* RoomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB217B8D19A1FBE20083C742 /* RoomCell.m */; };
 		CB217B9119A1FC780083C742 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB217B9019A1FC780083C742 /* AppDelegate.m */; };
+		CB5DEBE019AF08FB00003A9A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5DEBDF19AF08FB00003A9A /* AVFoundation.framework */; };
 		CB634E4A19A71F130085CDD0 /* SettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB634E4919A71F130085CDD0 /* SettingTableViewController.m */; };
 		CBB5A1BC19A4A44700006140 /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB5A1BB19A4A44700006140 /* EventDetailViewController.m */; };
 		CBB5A1BF19A4AB5400006140 /* QuickEnterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB5A1BE19A4AB5400006140 /* QuickEnterViewController.m */; };
+		CBC74AED19AED5C3008295F7 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC74AEC19AED5C3008295F7 /* CameraViewController.m */; };
 		CBFA89DF19A744A6007FBFB7 /* RoomInfos.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBFA89DE19A744A6007FBFB7 /* RoomInfos.plist */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +49,6 @@
 		CB217B55199E07250083C742 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB217B57199E07250083C742 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CB217B59199E07250083C742 /* WiMeeting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WiMeeting-Prefix.pch"; sourceTree = "<group>"; };
-		CB217B5E199E07250083C742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		CB217B61199E07250083C742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		CB217B66199E07250083C742 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CB217B6C199E07250083C742 /* WiMeetingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiMeetingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,12 +62,15 @@
 		CB217B8D19A1FBE20083C742 /* RoomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomCell.m; sourceTree = "<group>"; };
 		CB217B8F19A1FC780083C742 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB217B9019A1FC780083C742 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB5DEBDF19AF08FB00003A9A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		CB634E4819A71F130085CDD0 /* SettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTableViewController.h; sourceTree = "<group>"; };
 		CB634E4919A71F130085CDD0 /* SettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewController.m; sourceTree = "<group>"; };
 		CBB5A1BA19A4A44700006140 /* EventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailViewController.h; sourceTree = "<group>"; };
 		CBB5A1BB19A4A44700006140 /* EventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailViewController.m; sourceTree = "<group>"; };
 		CBB5A1BD19A4AB5400006140 /* QuickEnterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuickEnterViewController.h; path = ../QuickEnterViewController.h; sourceTree = "<group>"; };
 		CBB5A1BE19A4AB5400006140 /* QuickEnterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuickEnterViewController.m; path = ../QuickEnterViewController.m; sourceTree = "<group>"; };
+		CBC74AEB19AED5C3008295F7 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		CBC74AEC19AED5C3008295F7 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
 		CBFA89DE19A744A6007FBFB7 /* RoomInfos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RoomInfos.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB5DEBE019AF08FB00003A9A /* AVFoundation.framework in Frameworks */,
 				CB217B4E199E07250083C742 /* CoreGraphics.framework in Frameworks */,
 				CB217B50199E07250083C742 /* UIKit.framework in Frameworks */,
 				CB217B4C199E07250083C742 /* Foundation.framework in Frameworks */,
@@ -117,6 +121,7 @@
 		CB217B4A199E07250083C742 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CB5DEBDF19AF08FB00003A9A /* AVFoundation.framework */,
 				CB217B4B199E07250083C742 /* Foundation.framework */,
 				CB217B4D199E07250083C742 /* CoreGraphics.framework */,
 				CB217B4F199E07250083C742 /* UIKit.framework */,
@@ -128,10 +133,11 @@
 		CB217B51199E07250083C742 /* WiMeeting */ = {
 			isa = PBXGroup;
 			children = (
-				CB217B5D199E07250083C742 /* Main_iPhone.storyboard */,
+				CB217B60199E07250083C742 /* Main_iPad.storyboard */,
+				CBC74AEB19AED5C3008295F7 /* CameraViewController.h */,
+				CBC74AEC19AED5C3008295F7 /* CameraViewController.m */,
 				CB634E4819A71F130085CDD0 /* SettingTableViewController.h */,
 				CB634E4919A71F130085CDD0 /* SettingTableViewController.m */,
-				CB217B60199E07250083C742 /* Main_iPad.storyboard */,
 				CB217B8919A1FBC20083C742 /* RoomViewController.h */,
 				CB217B8A19A1FBC20083C742 /* RoomViewController.m */,
 				CB217B8C19A1FBE20083C742 /* RoomCell.h */,
@@ -269,7 +275,6 @@
 			files = (
 				CB217B62199E07250083C742 /* Main_iPad.storyboard in Resources */,
 				CB217B67199E07250083C742 /* Images.xcassets in Resources */,
-				CB217B5F199E07250083C742 /* Main_iPhone.storyboard in Resources */,
 				CBFA89DF19A744A6007FBFB7 /* RoomInfos.plist in Resources */,
 				CB217B56199E07250083C742 /* InfoPlist.strings in Resources */,
 			);
@@ -291,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBB5A1BC19A4A44700006140 /* EventDetailViewController.m in Sources */,
+				CBC74AED19AED5C3008295F7 /* CameraViewController.m in Sources */,
 				CB217B58199E07250083C742 /* main.m in Sources */,
 				CB217B8E19A1FBE20083C742 /* RoomCell.m in Sources */,
 				CBB5A1BF19A4AB5400006140 /* QuickEnterViewController.m in Sources */,
@@ -325,14 +331,6 @@
 				CB217B55199E07250083C742 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		CB217B5D199E07250083C742 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CB217B5E199E07250083C742 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 		CB217B60199E07250083C742 /* Main_iPad.storyboard */ = {
@@ -438,6 +436,7 @@
 				INFOPLIST_FILE = "WiMeeting/WiMeeting-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -454,6 +453,7 @@
 				INFOPLIST_FILE = "WiMeeting/WiMeeting-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

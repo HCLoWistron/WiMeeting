@@ -15,9 +15,6 @@
 
 @implementation RoomViewController
 
-//@synthesize tableView;
-
-
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if([segue.identifier isEqual:@"EventDetials"])
